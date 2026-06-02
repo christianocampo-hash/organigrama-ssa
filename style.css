@@ -1,0 +1,160 @@
+:root {
+    --bg-color: #133F70;
+    --text-color: #ffffff;
+    --node-bg: #ffffff;
+    --node-text: #133F70;
+    --line-color: rgba(255, 255, 255, 0.4);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 1.5rem;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+#logo {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+    background: white;
+    padding: 2px;
+}
+
+.info h1 {
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.info p {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+main {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    justify-content: flex-start; /* Alinear a la izquierda para el diseño vertical */
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#organigrama-container {
+    width: 100%;
+}
+
+/* Estructura del Árbol Vertical */
+.tree ul {
+    list-style: none;
+    padding-left: 30px;
+    position: relative;
+}
+
+/* Línea vertical que conecta los elementos de una misma lista */
+.tree ul::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--line-color);
+}
+
+/* El primer nivel no necesita línea vertical a su izquierda */
+.tree > ul::before {
+    display: none;
+}
+
+.tree li {
+    margin: 15px 0;
+    position: relative;
+}
+
+/* Línea horizontal que conecta el nodo con la línea vertical del padre */
+.tree li::before {
+    content: "";
+    position: absolute;
+    left: -30px;
+    top: 22px;
+    width: 30px;
+    height: 2px;
+    background: var(--line-color);
+}
+
+/* Eliminar la línea horizontal para el nodo raíz */
+.tree > ul > li::before {
+    display: none;
+}
+
+/* Ajuste para que la línea vertical no sobrepase el último hijo */
+.tree li:last-child::after {
+    content: "";
+    position: absolute;
+    left: -32px;
+    top: 22px;
+    bottom: 0;
+    width: 5px;
+    background: var(--bg-color);
+}
+
+/* Estilo de los Nodos */
+.node {
+    background: var(--node-bg);
+    color: var(--node-text);
+    padding: 12px 20px;
+    border-radius: 8px;
+    display: inline-block;
+    min-width: 220px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+}
+
+.node:hover {
+    transform: translateX(5px);
+}
+
+.node .nombre {
+    display: block;
+    font-weight: bold;
+    font-size: 1.05rem;
+}
+
+.node .puesto {
+    display: block;
+    font-size: 0.85rem;
+    color: #555;
+    margin-top: 4px;
+}
+
+footer {
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.85rem;
+    opacity: 0.7;
+    background: rgba(0, 0, 0, 0.1);
+}
