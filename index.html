@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organigrama Institucional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="logo.png" alt="Logotipo Institucional" id="logo">
+            <div class="info">
+                <h1 id="nombre-institucion">Nombre de la Institución</h1>
+                <p id="descripcion-organigrama">Descripción del organigrama</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="organigrama-container"></div>
+    </main>
+
+    <footer>
+        <p>© 2024 Todos los derechos reservados - Institución Educativa</p>
+    </footer>
+
+    <script>
+        const data = {
+          "institucion": "Instituto Tecnológico Superior",
+          "descripcion": "Estructura Organizacional 2024 - Representación jerárquica vertical optimizada.",
+          "organigrama": {
+            "nombre": "Rectoría",
+            "puesto": "Rector",
+            "subordinados": [
+              {
+                "nombre": "Secretaría General",
+                "puesto": "Secretario General",
+                "subordinados": []
+              },
+              {
+                "nombre": "Dirección Académica",
+                "puesto": "Director Académico",
+                "subordinados": [
+                  {
+                    "nombre": "Facultad de Ingeniería",
+                    "puesto": "Decano",
+                    "subordinados": []
+                  },
+                  {
+                    "nombre": "Facultad de Ciencias",
+                    "puesto": "Decano",
+                    "subordinados": []
+                  }
+                ]
+              },
+              {
+                "nombre": "Dirección Administrativa",
+                "puesto": "Director Administrativo",
+                "subordinados": [
+                  {
+                    "nombre": "Recursos Humanos",
+                    "puesto": "Jefe de RRHH",
+                    "subordinados": []
+                  },
+                  {
+                    "nombre": "Finanzas",
+                    "puesto": "Jefe de Finanzas",
+                    "subordinados": []
+                  }
+                ]
+              }
+            ]
+          }
+        };
+
+        function init() {
+            document.getElementById('nombre-institucion').textContent = data.institucion;
+            document.getElementById('descripcion-organigrama').textContent = data.descripcion;
+            
+            const container = document.getElementById('organigrama-container');
+            const treeDiv = document.createElement('div');
+            treeDiv.className = 'tree';
+            
+            const ul = document.createElement('ul');
+            ul.appendChild(createNode(data.organigrama));
+            treeDiv.appendChild(ul);
+            container.appendChild(treeDiv);
+        }
+
+        function createNode(nodeData) {
+            const li = document.createElement('li');
+            const div = document.createElement('div');
+            div.className = 'node';
+            div.innerHTML = `<span class="nombre">${nodeData.nombre}</span>
+                             <span class="puesto">${nodeData.puesto}</span>`;
+            li.appendChild(div);
+            
+            if (nodeData.subordinados && nodeData.subordinados.length > 0) {
+                const ul = document.createElement('ul');
+                nodeData.subordinados.forEach(sub => {
+                    ul.appendChild(createNode(sub));
+                });
+                li.appendChild(ul);
+            }
+            return li;
+        }
+
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+</html>
