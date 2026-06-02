@@ -11,7 +11,7 @@
         "subordinados": []
       },
       {
-        "nombre": "Francsico Villarroel",
+        "nombre": "Francisco Villarroel",
         "puesto": "Sub Director Médico",
         "subordinados": [
           {
@@ -27,8 +27,8 @@
         ]
       },
       {
-        "nombre": "Dirección Administrativa",
-        "puesto": "Director Administrativo",
+        "nombre": "Max Pizarro",
+        "puesto": "Sub Director Administrativo",
         "subordinados": [
           {
             "nombre": "Recursos Humanos",
