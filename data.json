@@ -1,13 +1,13 @@
 {
-  "institucion": "Instituto Tecnológico Superior",
-  "descripcion": "Estructura Organizacional 2024 - Representación jerárquica de las dependencias institucionales.",
+  "institucion": "Servicio de Salud Antofagasta",
+  "descripcion": "Estructura Organizacional 2026 - Representación ficticia.",
   "organigrama": {
-    "nombre": "Rectoría",
-    "puesto": "Rector",
+    "nombre": "Fabiola Roa",
+    "puesto": "Directora",
     "subordinados": [
       {
-        "nombre": "Secretaría General",
-        "puesto": "Secretario General",
+        "nombre": "Teresa Guerra",
+        "puesto": "Secretaria",
         "subordinados": []
       },
       {
