@@ -36,6 +36,11 @@
             "subordinados": []
           },
           {
+            "nombre": "Recursos Humanos 2",
+            "puesto": "Jefe de RRHH 2",
+            "subordinados": []
+          },
+          {
             "nombre": "Finanzas",
             "puesto": "Jefe de Finanzas",
             "subordinados": []
