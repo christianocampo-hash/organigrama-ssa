@@ -1,0 +1,47 @@
+{
+  "institucion": "Instituto Tecnológico Superior",
+  "descripcion": "Estructura Organizacional 2024 - Representación jerárquica de las dependencias institucionales.",
+  "organigrama": {
+    "nombre": "Rectoría",
+    "puesto": "Rector",
+    "subordinados": [
+      {
+        "nombre": "Secretaría General",
+        "puesto": "Secretario General",
+        "subordinados": []
+      },
+      {
+        "nombre": "Dirección Académica",
+        "puesto": "Director Académico",
+        "subordinados": [
+          {
+            "nombre": "Facultad de Ingeniería",
+            "puesto": "Decano",
+            "subordinados": []
+          },
+          {
+            "nombre": "Facultad de Ciencias",
+            "puesto": "Decano",
+            "subordinados": []
+          }
+        ]
+      },
+      {
+        "nombre": "Dirección Administrativa",
+        "puesto": "Director Administrativo",
+        "subordinados": [
+          {
+            "nombre": "Recursos Humanos",
+            "puesto": "Jefe de RRHH",
+            "subordinados": []
+          },
+          {
+            "nombre": "Finanzas",
+            "puesto": "Jefe de Finanzas",
+            "subordinados": []
+          }
+        ]
+      }
+    ]
+  }
+}
