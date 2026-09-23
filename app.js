@@ -11,11 +11,14 @@ const dialogPhoto = document.querySelector('#dialog-photo');
 const dialogNote = document.querySelector('#dialog-note');
 const placeholder = 'https://placehold.co/600x600/e4f2f4/17324d?text=Foto+pendiente';
 
-fetch('organigrama.json')
-  .then(response => {
-    if (!response.ok) throw new Error('No se pudo cargar organigrama.json');
-    return response.json();
-  })
+const dataSource = window.ORGANIGRAMA_DATA
+  ? Promise.resolve(window.ORGANIGRAMA_DATA)
+  : fetch('organigrama.json').then(response => {
+      if (!response.ok) throw new Error('No se pudo cargar organigrama.json');
+      return response.json();
+    });
+
+dataSource
   .then(data => renderOrgChart(data))
   .catch(error => {
     chart.innerHTML = `<p class="load-error"><strong>No se pudo cargar la información.</strong><br>Abre esta página desde un servidor local para permitir la lectura del archivo JSON.</p>`;
