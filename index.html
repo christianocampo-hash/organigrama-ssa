@@ -1,31 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Organigrama Institucional</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Organigrama interactivo del Servicio de Salud">
+  <title>Organigrama | Servicio de Salud</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <img src="logo.png" alt="Logotipo Institucional" id="logo">
-            <div class="info">
-                <h1 id="nombre-institucion">Cargando...</h1>
-                <p id="descripcion-organigrama">Espere un momento por favor.</p>
-            </div>
-        </div>
-    </header>
+  <header class="site-header">
+    <div>
+      <p class="eyebrow">Servicio de Salud</p>
+      <h1>Organigrama institucional</h1>
+      <p class="intro">Pulsa cualquier sección para consultar a la persona responsable.</p>
+    </div>
+    <div class="accessibility" role="group" aria-label="Controles de lectura">
+      <span class="accessibility-label">Tamaño de texto</span>
+      <button type="button" data-font="decrease" aria-label="Reducir tamaño de texto">A−</button>
+      <button type="button" data-font="reset" aria-label="Restablecer tamaño de texto">A</button>
+      <button type="button" data-font="increase" aria-label="Aumentar tamaño de texto">A+</button>
+    </div>
+  </header>
 
-    <main>
-        <div id="organigrama-container"></div>
-    </main>
+  <main>
+    <section class="legend" aria-label="Ayuda de navegación">
+      <span><i class="legend-dot"></i> Pulsa un cargo para ver sus datos</span>
+      <span><i class="legend-line"></i> Línea jerárquica</span>
+    </section>
+    <section id="org-chart" class="org-chart" aria-label="Organigrama interactivo"></section>
+  </main>
 
-    <footer>
-        <p>© 2026 Todos los derechos reservados - SSA / COG</p>
-    </footer>
+  <dialog id="person-dialog" class="person-dialog" aria-labelledby="dialog-title">
+    <button class="dialog-close" type="button" aria-label="Cerrar ficha">×</button>
+    <div class="person-card">
+      <div class="person-photo-wrap"><img id="dialog-photo" class="person-photo" alt=""></div>
+      <div class="person-copy">
+        <p class="eyebrow">Responsable</p>
+        <h2 id="dialog-title"></h2>
+        <p id="dialog-role" class="person-role"></p>
+        <p id="dialog-name" class="person-name"></p>
+        <p id="dialog-note" class="person-note"></p>
+      </div>
+    </div>
+  </dialog>
 
-    <!-- Cargamos el script externo que leerá el data.json -->
-    <script src="script.js"></script>
+  <footer class="site-footer">Los nombres y fotografías se editan únicamente en <code>organigrama.json</code>.</footer>
+  <script src="app.js"></script>
 </body>
 </html>
