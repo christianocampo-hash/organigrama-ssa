@@ -2,72 +2,72 @@
   "metadata": {
     "title": "Organigrama Dirección / Servicio de Salud",
     "subtitle": "Estructura institucional 2026",
-    "updatedAt": "2026-09-29",
-    "profileNote": "La información presentada es proporcionada por el departamento de RRHH."
+    "updatedAt": "03-01-2026",
+    "profileNote": "Estructura entregada por el depto. de RRHH."
   },
   "root": {
     "id": "direccion-servicio-salud",
-    "cargo": "Director / Servicio de Salud",
-    "name": "Max Pizarro Pavez",
+    "cargo": "Directoria / Servicio de Salud",
+    "name": "Nombre por actualizar",
     "photo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 160'%3E%3Crect width='160' height='160' rx='80' fill='%23d8f3ee'/%3E%3Ccircle cx='80' cy='64' r='28' fill='%231a5d63'/%3E%3Cpath d='M34 139c7-30 25-46 46-46s39 16 46 46' fill='%231a5d63'/%3E%3C/svg%3E",
     "unit": "Dirección / Servicio de Salud",
-    "bio": "Administrador Público - Director SSA."
+    "bio": "Perfil institucional pendiente de actualización."
   },
   "topDepartments": [
     {
       "id": "auditoria",
       "cargo": "Jefe/a departamento de auditoría",
-      "name": "Fabiola Roa Gonzalez",
+      "name": "Nombre por actualizar",
       "photo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 160'%3E%3Crect width='160' height='160' rx='80' fill='%23e7e1ff'/%3E%3Ccircle cx='80' cy='64' r='28' fill='%235d4fa3'/%3E%3Cpath d='M34 139c7-30 25-46 46-46s39 16 46 46' fill='%235d4fa3'/%3E%3C/svg%3E",
       "unit": "Departamento de Auditoría",
-      "bio": "Contadora Auditora - Área asesora y de control institucional."
+      "bio": "Área asesora y de control institucional."
     },
     {
       "id": "juridico",
       "cargo": "Jefe/a departamento jurídico",
-      "name": "Mauricio Molina Cortes",
+      "name": "Nombre por actualizar",
       "photo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 160'%3E%3Crect width='160' height='160' rx='80' fill='%23fff0d6'/%3E%3Ccircle cx='80' cy='64' r='28' fill='%23a8642b'/%3E%3Cpath d='M34 139c7-30 25-46 46-46s39 16 46 46' fill='%23a8642b'/%3E%3C/svg%3E",
       "unit": "Departamento Jurídico",
-      "bio": "Abogado - Área asesora en materias jurídicas."
+      "bio": "Área asesora en materias jurídicas."
     },
     {
       "id": "gabinete",
       "cargo": "Jefe/a departamento de gabinete",
-      "name": "Eslayne Portilla Barraza",
+      "name": "Nombre por actualizar",
       "photo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 160'%3E%3Crect width='160' height='160' rx='80' fill='%23ffe3e0'/%3E%3Ccircle cx='80' cy='64' r='28' fill='%23a94d55'/%3E%3Cpath d='M34 139c7-30 25-46 46-46s39 16 46 46' fill='%23a94d55'/%3E%3C/svg%3E",
       "unit": "Departamento de Gabinete",
-      "bio": "Periodista - Área de coordinación y apoyo directo a la dirección."
+      "bio": "Área de coordinación y apoyo directo a la dirección."
     },
     {
       "id": "asuntos-publicos",
       "cargo": "Jefe/a departamento de asuntos públicos y gestión usuario",
-      "name": "Giovanni Rivera Tapia",
+      "name": "Nombre por actualizar",
       "photo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 160'%3E%3Crect width='160' height='160' rx='80' fill='%23dff0ff'/%3E%3Ccircle cx='80' cy='64' r='28' fill='%233b6b9d'/%3E%3Cpath d='M34 139c7-30 25-46 46-46s39 16 46 46' fill='%233b6b9d'/%3E%3C/svg%3E",
       "unit": "Departamento de Asuntos Públicos y Gestión Usuario",
-      "bio": "Ingeniero Comercial - Área de vinculación pública y experiencia usuaria."
+      "bio": "Área de vinculación pública y experiencia usuaria."
     },
     {
       "id": "comunicaciones",
       "cargo": "Jefe/a departamento de comunicaciones estratégicas",
-      "name": "Giovanni Rivera Tapia",
+      "name": "Nombre por actualizar",
       "photo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 160'%3E%3Crect width='160' height='160' rx='80' fill='%23e3f4dd'/%3E%3Ccircle cx='80' cy='64' r='28' fill='%235b8651'/%3E%3Cpath d='M34 139c7-30 25-46 46-46s39 16 46 46' fill='%235b8651'/%3E%3C/svg%3E",
       "unit": "Departamento de Comunicaciones Estratégicas",
-      "bio": "Ingeniero Comercial - Área de comunicaciones institucionales."
+      "bio": "Área de comunicaciones institucionales."
     }
   ],
   "supportRoles": [
     {
       "id": "secretaria-direccion",
       "cargo": "Secretaria dirección",
-      "name": "Paola Lemus Castillo",
+      "name": "Nombre por actualizar",
       "photo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 160'%3E%3Crect width='160' height='160' rx='80' fill='%23e7e1ff'/%3E%3Ccircle cx='80' cy='64' r='28' fill='%235d4fa3'/%3E%3Cpath d='M34 139c7-30 25-46 46-46s39 16 46 46' fill='%235d4fa3'/%3E%3C/svg%3E",
       "unit": "Apoyo a la Dirección",
-      "bio": "Secretaria - Rol de apoyo administrativo a la Dirección."
+      "bio": "Rol de apoyo administrativo a la Dirección."
     },
     {
       "id": "oficina-partes",
       "cargo": "Encargado/a administrativo/a oficina de partes",
-      "name": "Sabina Ramos Lopez",
+      "name": "Nombre por actualizar",
       "photo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 160'%3E%3Crect width='160' height='160' rx='80' fill='%23fff0d6'/%3E%3Ccircle cx='80' cy='64' r='28' fill='%23a8642b'/%3E%3Cpath d='M34 139c7-30 25-46 46-46s39 16 46 46' fill='%23a8642b'/%3E%3C/svg%3E",
       "unit": "Oficina de Partes",
       "bio": "Rol administrativo de recepción y distribución documental."
@@ -77,7 +77,7 @@
     {
       "id": "establecimientos-red",
       "cargo": "Directores/as establecimientos de la red",
-      "name": "Varios",
+      "name": "Nombre por actualizar",
       "photo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 160'%3E%3Crect width='160' height='160' rx='80' fill='%23d8f3ee'/%3E%3Ccircle cx='80' cy='64' r='28' fill='%231a5d63'/%3E%3Cpath d='M34 139c7-30 25-46 46-46s39 16 46 46' fill='%231a5d63'/%3E%3C/svg%3E",
       "unit": "Establecimientos de la Red",
       "bio": "Dirección de establecimientos que integran la red asistencial.",
@@ -86,34 +86,34 @@
     {
       "id": "gestion-asistencial",
       "cargo": "Subdirector/a de gestión asistencial",
-      "name": "Maria Paz Lopez Olivares (S)",
+      "name": "Nombre por actualizar",
       "photo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 160'%3E%3Crect width='160' height='160' rx='80' fill='%23dff0ff'/%3E%3Ccircle cx='80' cy='64' r='28' fill='%233b6b9d'/%3E%3Cpath d='M34 139c7-30 25-46 46-46s39 16 46 46' fill='%233b6b9d'/%3E%3C/svg%3E",
       "unit": "Subdirección de Gestión Asistencial",
-      "bio": "Químico Farmaceutico - Coordina la gestión clínica y asistencial de la red.",
+      "bio": "Coordina la gestión clínica y asistencial de la red.",
       "children": [
         {
           "id": "secretaria-asistencial",
           "cargo": "Secretaria subdirección",
-          "name": "Brigitte Galleguillos Porriga",
+          "name": "Nombre por actualizar",
           "photo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 160'%3E%3Crect width='160' height='160' rx='80' fill='%23e7e1ff'/%3E%3Ccircle cx='80' cy='64' r='28' fill='%235d4fa3'/%3E%3Cpath d='M34 139c7-30 25-46 46-46s39 16 46 46' fill='%235d4fa3'/%3E%3C/svg%3E",
           "unit": "Apoyo a la Subdirección de Gestión Asistencial",
-          "bio": "Secretaria - Rol de apoyo administrativo a la subdirección."
+          "bio": "Rol de apoyo administrativo a la subdirección."
         },
         {
           "id": "procesos-clinicos-estrategicos",
           "cargo": "Jefe/a departamento gestión de procesos clínicos estratégicos",
-          "name": "Veronica Chicaguala Velasquez",
+          "name": "Nombre por actualizar",
           "photo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 160'%3E%3Crect width='160' height='160' rx='80' fill='%23ffe3e0'/%3E%3Ccircle cx='80' cy='64' r='28' fill='%23a94d55'/%3E%3Cpath d='M34 139c7-30 25-46 46-46s39 16 46 46' fill='%23a94d55'/%3E%3C/svg%3E",
           "unit": "Gestión Asistencial",
-          "bio": "Enfermera - Gestiona procesos clínicos estratégicos."
+          "bio": "Gestiona procesos clínicos estratégicos."
         },
         {
           "id": "atencion-primaria",
           "cargo": "Director/a departamento de atención primaria de salud",
-          "name": "Sergio Cardenas Campillay (S)",
+          "name": "Nombre por actualizar",
           "photo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 160'%3E%3Crect width='160' height='160' rx='80' fill='%23e3f4dd'/%3E%3Ccircle cx='80' cy='64' r='28' fill='%235b8651'/%3E%3Cpath d='M34 139c7-30 25-46 46-46s39 16 46 46' fill='%235b8651'/%3E%3C/svg%3E",
           "unit": "Gestión Asistencial",
-          "bio": "Kinesiologo - Coordina la atención primaria de salud."
+          "bio": "Coordina la atención primaria de salud."
         },
         {
           "id": "procesos-clinicos-transversales",
