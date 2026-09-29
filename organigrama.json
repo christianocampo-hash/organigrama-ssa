@@ -86,34 +86,34 @@
     {
       "id": "gestion-asistencial",
       "cargo": "Subdirector/a de gestión asistencial",
-      "name": "Maria Paz Lopez Olivarez (S)",
+      "name": "Maria Paz Lopez Olivares (S)",
       "photo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 160'%3E%3Crect width='160' height='160' rx='80' fill='%23dff0ff'/%3E%3Ccircle cx='80' cy='64' r='28' fill='%233b6b9d'/%3E%3Cpath d='M34 139c7-30 25-46 46-46s39 16 46 46' fill='%233b6b9d'/%3E%3C/svg%3E",
       "unit": "Subdirección de Gestión Asistencial",
-      "bio": "Quimico Farmaceutico - Coordina la gestión clínica y asistencial de la red.",
+      "bio": "Químico Farmaceutico - Coordina la gestión clínica y asistencial de la red.",
       "children": [
         {
           "id": "secretaria-asistencial",
           "cargo": "Secretaria subdirección",
-          "name": "Nombre por actualizar",
+          "name": "Brigitte Galleguillos Porriga",
           "photo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 160'%3E%3Crect width='160' height='160' rx='80' fill='%23e7e1ff'/%3E%3Ccircle cx='80' cy='64' r='28' fill='%235d4fa3'/%3E%3Cpath d='M34 139c7-30 25-46 46-46s39 16 46 46' fill='%235d4fa3'/%3E%3C/svg%3E",
           "unit": "Apoyo a la Subdirección de Gestión Asistencial",
-          "bio": "Rol de apoyo administrativo a la subdirección."
+          "bio": "Secretaria - Rol de apoyo administrativo a la subdirección."
         },
         {
           "id": "procesos-clinicos-estrategicos",
           "cargo": "Jefe/a departamento gestión de procesos clínicos estratégicos",
-          "name": "Nombre por actualizar",
+          "name": "Veronica Chicaguala Velasquez",
           "photo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 160'%3E%3Crect width='160' height='160' rx='80' fill='%23ffe3e0'/%3E%3Ccircle cx='80' cy='64' r='28' fill='%23a94d55'/%3E%3Cpath d='M34 139c7-30 25-46 46-46s39 16 46 46' fill='%23a94d55'/%3E%3C/svg%3E",
           "unit": "Gestión Asistencial",
-          "bio": "Gestiona procesos clínicos estratégicos."
+          "bio": "Enfermera - Gestiona procesos clínicos estratégicos."
         },
         {
           "id": "atencion-primaria",
           "cargo": "Director/a departamento de atención primaria de salud",
-          "name": "Nombre por actualizar",
+          "name": "Sergio Cardenas Campillay (S)",
           "photo": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 160'%3E%3Crect width='160' height='160' rx='80' fill='%23e3f4dd'/%3E%3Ccircle cx='80' cy='64' r='28' fill='%235b8651'/%3E%3Cpath d='M34 139c7-30 25-46 46-46s39 16 46 46' fill='%235b8651'/%3E%3C/svg%3E",
           "unit": "Gestión Asistencial",
-          "bio": "Coordina la atención primaria de salud."
+          "bio": "Kinesiologo - Coordina la atención primaria de salud."
         },
         {
           "id": "procesos-clinicos-transversales",
