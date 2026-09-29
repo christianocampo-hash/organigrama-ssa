@@ -33,11 +33,9 @@ function renderChart(data) {
 function openProfile(person) {
   $("#profile-id").textContent = `ID / ${person.id}`;
   $("#profile-photo").src = person.photo;
-  $("#profile-photo").alt = `Foto de ${person.name}`;
+  $("#profile-photo").alt = "Imagen asociada al cargo";
   $("#profile-unit").textContent = person.unit;
   $("#profile-title").textContent = prettify(person.cargo);
-  $("#profile-name").textContent = person.name;
-  $("#profile-bio").textContent = person.bio;
   const modal = $("#profile-modal");
   if (typeof modal.showModal === "function") modal.showModal();
   else modal.setAttribute("open", "");
